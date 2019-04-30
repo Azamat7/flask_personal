@@ -1,5 +1,6 @@
 body {
   height: 100%;
+  margin-bottom:50px;
 }
 
 html {
@@ -24,6 +25,16 @@ header nav {
 header {
   border-color: black;
   height:10%;
+}
+
+footer {
+  position: fixed;
+    height: 50px;
+    background-color: black;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
 }
 
 .parallax {

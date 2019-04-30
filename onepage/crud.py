@@ -18,23 +18,22 @@ from flask import Blueprint, redirect, render_template, request, url_for
 crud = Blueprint('crud', __name__)
 
 
-# [START list]
 @crud.route("/")
 def list():
-    return render_template("list.html")
-# def list():
-#     token = request.args.get('page_token', None)
-#     if token:
-#         token = token.encode('utf-8')
+    return render_template("main.html")
 
-#     books, next_page_token = get_model().list(cursor=token)
+@crud.route("/resume")
+def resume():
+    return render_template("resume.html")
 
-#     return render_template(
-#         "list.html",
-#         books=books,
-#         next_page_token=next_page_token)
+@crud.route("/projects")
+def projects():
+    return render_template("projects.html")
 
-# [END list]
+@crud.route("/fun")
+def fun():
+    return render_template("fun.html")
+
 
 # [START list]
 @crud.route("/search", methods=['GET', 'POST'])
