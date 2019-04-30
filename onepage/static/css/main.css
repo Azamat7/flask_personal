@@ -1,5 +1,10 @@
 body {
   background-color: lightgrey;
+  height: 100%;
+}
+
+html {
+  height: 100%;
 }
 
 h1 {
@@ -21,16 +26,18 @@ header {
   border-color: black;
 }
 
-#home {
-  background-image: url("/assets/AndrewCapFalc.jpg");
-  background-size: 100% 100%;
-  min-height: 800px;
-}
+.parallax {
+  /* The image used */
+  background-image: url('/static/images/bg.jpg');
 
-.jumbotron{
-  display: flex;
-  align-items: center;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #bio {
