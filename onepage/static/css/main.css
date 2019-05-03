@@ -120,3 +120,34 @@ footer {
   background: #125688;
   color: white;
 }
+
+.niceties {
+  height: 100%; width: 100%;
+  display: inline-block;
+  float: left;
+  overflow-x: hidden;
+  position: relative; 
+  background-color: #fff;">          
+}
+
+.half {
+  width: 50%;
+  float: left;
+  padding: 60px;
+  height: 100%;
+  position: relative;
+}
+
+.white { 
+  background-color: #fff;
+}
+
+.navy {
+  background-color: #183150;
+}
+
+
+
+
+
+
