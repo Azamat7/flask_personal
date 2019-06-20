@@ -13,6 +13,10 @@ h1 {
   color: darkolivegreen;
 }
 
+h2 {
+  font-size: 50px;
+}
+
 h4 {
   padding: 10px 20px 20px 20px;
 }
@@ -146,6 +150,25 @@ footer {
   background-color: #183150;
 }
 
+.cream {
+  background-color: #ffdcb4;
+}
+
+.home {
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  float: left;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.full {
+  width: 100%;
+  float: left;
+  padding: 60px;
+  position: relative;
+}
 
 
 
